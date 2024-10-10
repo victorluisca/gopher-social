@@ -11,7 +11,7 @@ func main() {
 		config: cfg,
 	}
 
-	router := app.mount()
+	mux := app.mount()
 
-	log.Fatal(app.run(router))
+	log.Fatal(app.run(mux))
 }
