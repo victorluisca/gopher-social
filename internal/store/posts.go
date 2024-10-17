@@ -7,7 +7,6 @@ import (
 	"github.com/lib/pq"
 )
 
-// model
 type Post struct {
 	ID        int64    `json:"id"`
 	Content   string   `json:"content"`
